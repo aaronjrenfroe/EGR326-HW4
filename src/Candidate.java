@@ -2,7 +2,7 @@
  * Written by Jose
  * Created by Jose on 3/4/2017.
  */
-public class Candidate {
+public final class Candidate {
 
     private String name, party;
 
