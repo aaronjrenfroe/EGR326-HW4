@@ -11,7 +11,19 @@ import static org.junit.Assert.*;
 public class ElectionTest {
     @Test
     public void getInstance() throws Exception {
-
+        Assert.assertTrue(Election.getInstance().equals(Election.getInstance()));
+        Assert.assertTrue(Election.getInstance().equals(Election.getInstance()));
+        Assert.assertTrue(Election.getInstance().equals(Election.getInstance()));
+        Assert.assertTrue(Election.getInstance().equals(Election.getInstance()));
+        Assert.assertTrue(Election.getInstance().equals(Election.getInstance()));
+        Assert.assertTrue(Election.getInstance().equals(Election.getInstance()));
+        Assert.assertTrue(Election.getInstance().equals(Election.getInstance()));
+        Assert.assertTrue(Election.getInstance().equals(Election.getInstance()));
+        Assert.assertTrue(Election.getInstance().equals(Election.getInstance()));
+        Assert.assertTrue(Election.getInstance().equals(Election.getInstance()));
+        Assert.assertTrue(Election.getInstance().equals(Election.getInstance()));
+        Assert.assertTrue(Election.getInstance().equals(Election.getInstance()));
+        Assert.assertTrue(Election.getInstance().equals(Election.getInstance()));
     }
 
     @Test
